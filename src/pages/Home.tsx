@@ -347,7 +347,7 @@ export default function Home() {
               </h2>
               <div className="prose prose-slate max-w-none text-[15px] leading-relaxed text-slate-700 space-y-4">
                 <p>
-                  I am a researcher at the <strong>Qwen Applications Business Group of Alibaba</strong>. Previously, I was a Staff Engineer at <strong>Huawei 2012 Labs</strong>, Central Software Institute, where I was responsible for NPU/GPU large-scale inference systems, with focus on PD (Prefill-Decode) separation, heterogeneous KV-Cache transfer, and load balancing.
+                  I am a researcher at the <strong>Qwen Applications Business Group of Alibaba</strong>. Previously, I was a Principal Engineer at <strong>Huawei 2012 Labs</strong>, Central Software Institute, where I was responsible for NPU/GPU large-scale inference systems, with focus on PD (Prefill-Decode) separation, heterogeneous KV-Cache transfer, and load balancing.
                 </p>
                 <p>
                   My current interests include <strong>LLM inference systems</strong>, <strong>LLM applications</strong>, <strong>GPU/NPU cluster scheduling</strong>, <strong>datacenter networking for AI</strong>, and building large-scale AI infrastructure. 
@@ -402,7 +402,7 @@ export default function Home() {
                 <div className="flex gap-4">
                   <div className="text-sm text-slate-400 font-mono shrink-0 w-28">2023 – 2026</div>
                   <div>
-                    <div className="font-medium text-slate-800">Staff Engineer, LLM Serving / AI Infra</div>
+                    <div className="font-medium text-slate-800">Principal Engineer, LLM Serving / AI Infra</div>
                     <div className="text-sm text-slate-600">Huawei 2012 Labs, Central Software Institute, Beijing</div>
                     <div className="text-sm text-slate-500 mt-1">Leading NPU/GPU large-scale inference systems.</div>
                   </div>
