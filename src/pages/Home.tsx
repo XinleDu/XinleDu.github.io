@@ -56,13 +56,6 @@ const publications: PubGroup[] = [
     category: 'Datacenter Networking',
     papers: [
       {
-        title: 'Concord: Airtime-Aware Contention Control for Taming Tail Latency from Wi-Fi Frame Bursting',
-        authors: 'Fengqian Guo, Siqi Wei, Sihao Miao, Xinle Du, Hancheng Lu',
-        venue: 'ACM SIGCOMM',
-        year: '2026',
-        note: 'To appear',
-      },
-      {
         title: 'AutoRec: Accelerating Loss Recovery for Live Streaming in a Multi-Supplier Market',
         authors: 'Tong Li, Xu Yan, Bo Wu, Cheng Luo, Fuyu Wang, Jiuxiang Zhu, Haoyi Fang, Xinle Du, Ke Xu',
         venue: 'IEEE Trans. Netw.',
@@ -103,6 +96,13 @@ const publications: PubGroup[] = [
   {
     category: 'Network Security & Others',
     papers: [
+      {
+        title: 'Concord: Airtime-Aware Contention Control for Taming Tail Latency from Wi-Fi Frame Bursting',
+        authors: 'Fengqian Guo, Siqi Wei, Sihao Miao, Xinle Du, Hancheng Lu',
+        venue: 'ACM SIGCOMM',
+        year: '2026',
+        note: 'To appear',
+      },
       {
         title: 'Secure Fault Localization in Path Aware Networking',
         authors: 'Songtao Fu, Qi Li, Xiaoliang Wang, Su Yao, Xuewei Feng, Ziqiang Wang, Xinle Du, Kao Wan, Ke Xu',
@@ -390,7 +390,7 @@ export default function Home() {
                   </li> */}
                   <li className="flex items-start gap-2">
                     <span className="text-blue-500 mt-1 shrink-0">&#8226;</span>
-                    <span>Published 20+ papers at top venues (NSDI, CoNEXT, IEEE Trans. Netw., etc.)</span>
+                    <span>Published 20+ papers at top venues (NSDI, SIGCOMM, CoNEXT, IEEE Trans. Netw., etc.)</span>
                   </li>
                 </ul>
               </div>
