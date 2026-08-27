@@ -56,6 +56,13 @@ const publications: PubGroup[] = [
     category: 'Datacenter Networking',
     papers: [
       {
+        title: 'Concord: Airtime-Aware Contention Control for Taming Tail Latency from Wi-Fi Frame Bursting',
+        authors: 'Fengqian Guo, Siqi Wei, Sihao Miao, Xinle Du, Hancheng Lu',
+        venue: 'ACM SIGCOMM',
+        year: '2026',
+        note: 'To appear',
+      },
+      {
         title: 'AutoRec: Accelerating Loss Recovery for Live Streaming in a Multi-Supplier Market',
         authors: 'Tong Li, Xu Yan, Bo Wu, Cheng Luo, Fuyu Wang, Jiuxiang Zhu, Haoyi Fang, Xinle Du, Ke Xu',
         venue: 'IEEE Trans. Netw.',
@@ -272,7 +279,7 @@ export default function Home() {
 
             {/* Title */}
             <div className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded-full mb-6 w-fit">
-              AI Infra &middot; LLM Serving
+              Agentic Infra &middot; LLM Serving
             </div>
 
             {/* Navigation */}
@@ -335,7 +342,7 @@ export default function Home() {
             />
             <div>
               <h1 className="text-xl font-bold text-slate-800">Xinle Du</h1>
-              <p className="text-sm text-slate-500">AI Infra &middot; LLM Serving</p>
+              <p className="text-sm text-slate-500">Agentic Infra &middot; LLM Serving</p>
             </div>
           </div>
 
@@ -347,10 +354,10 @@ export default function Home() {
               </h2>
               <div className="prose prose-slate max-w-none text-[15px] leading-relaxed text-slate-700 space-y-4">
                 <p>
-                  I am a researcher at the <strong>Qwen Applications Business Group of Alibaba</strong>. Previously, I was a Principal Engineer at <strong>Huawei 2012 Labs</strong>, Central Software Institute, where I was responsible for NPU/GPU large-scale inference systems, with focus on PD (Prefill-Decode) separation, heterogeneous KV-Cache transfer, and load balancing.
+                  I am a researcher at the <strong>Qwen Applications Business Group of Alibaba</strong>, working on <strong>Agentic Infra</strong>, <strong>distributed LLM inference</strong>, and <strong>PD (Prefill-Decode) separation</strong>. Previously, I was a Principal Engineer at Huawei 2012 Labs, Central Software Institute, where I worked on NPU/GPU large-scale inference systems.
                 </p>
                 <p>
-                  My current interests include <strong>LLM inference systems</strong>, <strong>LLM applications</strong>, <strong>GPU/NPU cluster scheduling</strong>, <strong>datacenter networking for AI</strong>, and building large-scale AI infrastructure. 
+                  My current interests include <strong>Agentic AI infrastructure</strong>, <strong>LLM inference systems</strong>, <strong>LLM applications</strong>, <strong>GPU/NPU cluster scheduling</strong>, <strong>datacenter networking for AI</strong>, and building large-scale AI infrastructure. 
                   {/* I am an active contributor to the open-source community, with contributions to <a href="https://github.com/kvcache-ai/Mooncake" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Mooncake</a> and <a href="https://github.com/vllm-project/vllm-ascend" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">vLLM-Ascend</a> (10K+ lines of code). I also co-founded the <a href="https://github.com/aigw-project/aigw" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AIGW</a> open-source project with top-tier internet clients and Tsinghua University, which is on the CNCF donation roadmap. */}
                 </p>
                 <p>
@@ -365,14 +372,18 @@ export default function Home() {
               <div className="mt-6 bg-slate-50 rounded-lg p-4 border border-slate-100">
                 <h3 className="text-sm font-semibold text-slate-600 uppercase tracking-wide mb-3">Highlights</h3>
                 <ul className="space-y-2 text-sm text-slate-700">
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-500 mt-1 shrink-0">&#8226;</span>
+                    <span>Currently building Agentic Infra, distributed inference, and PD separation at Alibaba Qwen</span>
+                  </li>
                   {/* <li className="flex items-start gap-2">
                     <span className="text-blue-500 mt-1 shrink-0">&#8226;</span>
                     <span>Built 2 LLM inference product lines from scratch at Huawei, serving Xiaoyi, Huawei Cloud PaaS, and top-3 internet clients</span>
                   </li> */}
-                  <li className="flex items-start gap-2">
+                  {/* <li className="flex items-start gap-2">
                     <span className="text-blue-500 mt-1 shrink-0">&#8226;</span>
                     <span>Defined 4 core architectures (PD separation, heterogeneous transfer, load balancing, hot KV-Cache replication) adopted in Huawei 2025 tech roadmap</span>
-                  </li>
+                  </li> */}
                   {/* <li className="flex items-start gap-2">
                     <span className="text-blue-500 mt-1 shrink-0">&#8226;</span>
                     <span>Leading AIGW open-source project with CNCF donation planned for 2026.6</span>
@@ -394,9 +405,9 @@ export default function Home() {
                 <div className="flex gap-4">
                   <div className="text-sm text-slate-400 font-mono shrink-0 w-28">2026 – Now</div>
                   <div>
-                    <div className="font-medium text-slate-800">Researcher, LLM Applications</div>
+                    <div className="font-medium text-slate-800">Researcher, Agentic Infra / LLM Serving</div>
                     <div className="text-sm text-slate-600">Alibaba, Qwen Applications Business Group</div>
-                    <div className="text-sm text-slate-500 mt-1">LLM applications and inference systems.</div>
+                    <div className="text-sm text-slate-500 mt-1">Agentic infrastructure, distributed inference, and PD (Prefill-Decode) separation.</div>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -442,7 +453,7 @@ export default function Home() {
             {/* Footer */}
             <footer className="mt-16 pt-6 border-t border-slate-200 text-center text-xs text-slate-400">
               <p>&copy; {new Date().getFullYear()} Xinle Du. All rights reserved.</p>
-              <p className="mt-1">Last updated: May 2026</p>
+              <p className="mt-1">Last updated: August 2026</p>
             </footer>
           </div>
         </main>
